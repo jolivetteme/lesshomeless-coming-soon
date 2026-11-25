@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LessHomeless is coming soon. A clearer path forward starts with connecting people to resources and support.">
+  <title>LessHomeless — Coming Soon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="LessHomeless home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>Less<span class="brand-light">Homeless</span></span>
+      </a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode">
+        <span id="themeIcon" aria-hidden="true">☾</span>
+        <span id="themeLabel">Dark mode</span>
+      </button>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Something meaningful is on the way</p>
+        <h1>A clearer path<br><span>forward starts here.</span></h1>
+        <p class="mission">LessHomeless is being built to make it easier to find housing, food, healthcare, transportation, employment, and the support that helps people move forward.</p>
+        <div class="signup-wrap">
+          <h2>Be the first to know.</h2>
+          <p>Get an email when LessHomeless is ready.</p>
+          <form class="signup-form" id="signupForm">
+            <label class="visually-hidden" for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email address" autocomplete="email" required>
+            <button type="submit">Notify me <span aria-hidden="true">→</span></button>
+          </form>
+          <p class="form-note" id="formMessage" role="status">No spam. Just a launch update.</p>
+        </div>
+      </div>
+
+      <div class="preview-column">
+        <div class="preview-caption"><span class="preview-line"></span> A preview of the app to come</div>
+        <div class="phone-frame" id="phonePreview" data-theme="dark" aria-label="Preview of the LessHomeless mobile app in the opposite theme">
+          <div class="phone-island"></div>
+          <div class="phone-status"><span>9:41</span><span>● ● ▰</span></div>
+          <div class="phone-screen">
+            <div class="app-top">
+              <div class="app-brand"><span class="mini-mark">L</span> LessHomeless</div>
+              <span class="app-menu">☰</span>
+            </div>
+            <p class="app-greeting">Good morning</p>
+            <h3>What do you need help with?</h3>
+            <p class="app-subtitle">Find resources and take your next step.</p>
+            <div class="app-search">⌕ <span>Search for help or services</span></div>
+            <div class="resource-grid">
+              <div class="resource-card"><span class="resource-icon">⌂</span><b>Housing</b></div>
+              <div class="resource-card"><span class="resource-icon">♡</span><b>Healthcare</b></div>
+              <div class="resource-card"><span class="resource-icon">♧</span><b>Food</b></div>
+              <div class="resource-card"><span class="resource-icon">➜</span><b>Transportation</b></div>
+            </div>
+            <div class="nearby-card">
+              <div><b>Resources near you</b><small>Explore local support</small></div>
+              <span class="nearby-arrow">→</span>
+            </div>
+            <div class="app-nav"><span>⌂<small>Home</small></span><span>⌕<small>Explore</small></span><span>♡<small>Saved</small></span><span>☻<small>Profile</small></span></div>
+          </div>
+        </div>
+        <p class="preview-footnote">Concept preview · The app is not available yet</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> LessHomeless</span>
+      <span>Building connections. Creating possibilities.</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
